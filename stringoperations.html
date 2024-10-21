@@ -61,7 +61,7 @@
     <input type="text" id="input" placeholder="Enter Text to perform operation" class="text-box">
     <input type="text" id="output" placeholder="See Output here" class="text-box">
     <div class="action-container">
-        <button type="button" class="btn-action" onclick="textoperation('uppercase')">Upper Case</button>
+        <button type="button" class="btn-action" onclick="textoperation('uuppercase')">Upper Case</button>
         <button type="button" class="btn-action" onclick="textoperation('lowercase')">Lower Case</button>
         <button type="button" class="btn-action" onclick="textoperation('wordcount')">Word Count</button>
         <button type="button" class="btn-action" onclick="textoperation('charactercount')">Character Count</button>
@@ -73,7 +73,7 @@
             const inputelement = document.getElementById('input');
             const outputelement = document.getElementById('output');
 
-            if(op =="uppercase"){
+            if(op =="uuppercase"){
                 const inputtext = inputelement.value;
                 outputelement.value = inputtext.toUpperCase();
             }
